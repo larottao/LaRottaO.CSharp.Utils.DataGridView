@@ -1,0 +1,17 @@
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.UtilidadesDgv\bin\Debug\LaRottaO.CSharp.DataGridViewUtilities.dll
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.UtilidadesDgv\bin\Debug\LaRottaO.CSharp.DataGridViewUtilities.pdb
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.csproj.CoreCompileInputs.cache
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.dll
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.pdb
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\bin\Debug\LaRottaO.CSharp.DataGridViewUtilities.dll
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\bin\Debug\LaRottaO.CSharp.DataGridViewUtilities.pdb
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.csprojAssemblyReference.cache
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.csproj.CoreCompileInputs.cache
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.dll
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.pdb
+C:\Repositorios\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\bin\Debug\LaRottaO.CSharp.DataGridViewUtilities.dll
+C:\Repositorios\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\bin\Debug\LaRottaO.CSharp.DataGridViewUtilities.pdb
+C:\Repositorios\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.csproj.AssemblyReference.cache
+C:\Repositorios\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.csproj.CoreCompileInputs.cache
+C:\Repositorios\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.dll
+C:\Repositorios\LaRottaO.CSharp.Utils.DataGridView\LaRottaO.CSharp.DataGridViewUtilities\obj\Debug\LaRottaO.CSharp.DataGridViewUtilities.pdb

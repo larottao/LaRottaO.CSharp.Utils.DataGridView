@@ -1,0 +1,12 @@
+C:\Users\17-Celmax\source\repos\LaRottaO.CSharp.UtilidadesDgv\LaRottaO.CSharp.UtilidadesDgv\bin\Debug\LaRottaO.CSharp.UtilidadesDgv.dll
+C:\Users\17-Celmax\source\repos\LaRottaO.CSharp.UtilidadesDgv\LaRottaO.CSharp.UtilidadesDgv\bin\Debug\LaRottaO.CSharp.UtilidadesDgv.pdb
+C:\Users\17-Celmax\source\repos\LaRottaO.CSharp.UtilidadesDgv\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.UtilidadesDgv.csprojAssemblyReference.cache
+C:\Users\17-Celmax\source\repos\LaRottaO.CSharp.UtilidadesDgv\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.UtilidadesDgv.csproj.CoreCompileInputs.cache
+C:\Users\17-Celmax\source\repos\LaRottaO.CSharp.UtilidadesDgv\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.UtilidadesDgv.dll
+C:\Users\17-Celmax\source\repos\LaRottaO.CSharp.UtilidadesDgv\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.UtilidadesDgv.pdb
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.Dgv\LaRottaO.CSharp.UtilidadesDgv\bin\Debug\LaRottaO.CSharp.UtilidadesDgv.dll
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.Dgv\LaRottaO.CSharp.UtilidadesDgv\bin\Debug\LaRottaO.CSharp.UtilidadesDgv.pdb
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.Dgv\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.UtilidadesDgv.csprojAssemblyReference.cache
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.Dgv\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.UtilidadesDgv.csproj.CoreCompileInputs.cache
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.Dgv\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.UtilidadesDgv.dll
+C:\Repos.LaRottaO\LaRottaO.CSharp.Utils.Dgv\LaRottaO.CSharp.UtilidadesDgv\obj\Debug\LaRottaO.CSharp.UtilidadesDgv.pdb
