@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LaRottaO.CSharp.DataGridViewUtilities
 {
-    public class ShowMultipleObjectsAsColumns
+    public class ShowMultipleObjectsAsRows
     {
         /*******************************************************************/
         // USAGE
@@ -33,7 +33,7 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
                     return outputDataTable;
                 }
 
-                Tuple<Boolean, String> columnCreationResult = Shared.createColumnsFromObjectProperties(argObjectList[0], outputDataTable);
+                Tuple<Boolean, String> columnCreationResult = DgvUtilsShared.createColumnsFromObjectProperties(argObjectList[0], outputDataTable);
 
                 if (!columnCreationResult.Item1)
                 {

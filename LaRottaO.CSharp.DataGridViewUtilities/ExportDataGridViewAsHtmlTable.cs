@@ -70,7 +70,7 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
             // Add Table headers from object properties
             /*******************************************************************/
 
-            List<String> columnNamesList = Shared.getDataGridViewColumnNames(dataGridView);
+            List<String> columnNamesList = DgvUtilsShared.getDataGridViewColumnNames(dataGridView);
 
             sbHtmlOutput.Append("<table>" + Environment.NewLine);
             sbHtmlOutput.Append("<tr>" + Environment.NewLine);

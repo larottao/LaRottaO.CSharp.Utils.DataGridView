@@ -22,13 +22,8 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
     /// </summary>
     ///
 
-    public class Shared
+    public class DgvUtilsShared
     {
-        private Shared()
-        {
-            //Not implemented
-        }
-
         public static List<String> getDataGridViewColumnNames(DataGridView dataGridView)
         {
             List<String> listaNombres = new List<String>();
