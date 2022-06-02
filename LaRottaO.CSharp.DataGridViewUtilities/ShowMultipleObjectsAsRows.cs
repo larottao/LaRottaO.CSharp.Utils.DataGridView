@@ -11,7 +11,7 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
     {
         /*******************************************************************/
         // USAGE
-        // showMultipleObjectsAsRows(new List<Object>(yourObjectsList), dataTable);
+        // dataTable = showMultipleObjectsAsRows(new List<Object>(yourObjectsList);
 
         /*******************************************************************/
 
@@ -104,7 +104,7 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
                         {
                             if (argShowDebug)
                             {
-                                Console.WriteLine("Unable to cast object property to Datatable: " + ex.StackTrace);
+                                Console.WriteLine("Unable to cast object properties to Datatable: " + ex.StackTrace);
                             }
                         }
                     }
@@ -117,6 +117,13 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
                     if (listOfValuesForDataTableRow.Count > 0)
                     {
                         outputDataTable.Rows.Add(listOfValuesForDataTableRow.ToArray());
+                    }
+                    else
+                    {
+                        if (argShowDebug)
+                        {
+                            Console.WriteLine("Unable to cast object properties to Datatable. ");
+                        }
                     }
                 }
 

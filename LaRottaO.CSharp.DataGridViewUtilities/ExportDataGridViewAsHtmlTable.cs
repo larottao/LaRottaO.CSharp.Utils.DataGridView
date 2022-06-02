@@ -9,7 +9,7 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
 {
     public class ExportDataGridViewAsHtmlTable
     {
-        public String export(DataGridView dataGridView, String argHtmlTableTitle = null, String argHtmlTableDetails = null, String[] argRedColorIfContainsAnyOf = null, Boolean argAddHtmlHeaderAndFooter = true)
+        public async Task<String> export(DataGridView dataGridView, String argHtmlTableTitle = null, String argHtmlTableDetails = null, List<String> argRedColorWordsList = null, Boolean argAddHtmlHeaderAndFooter = true, List<String> argAllowedRowHeadersList = null, Boolean exportOnlyVisibleColumns = true)
         {
             StringBuilder sbHtmlOutput = new StringBuilder();
             String NORMAL_TEXT_COLOR = "black";
@@ -77,6 +77,12 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
 
             foreach (String columnName in columnNamesList)
             {
+                if (argAllowedRowHeadersList != null && argAllowedRowHeadersList.Count > 0 && !argAllowedRowHeadersList.Contains(columnName))
+
+                {
+                    continue;
+                }
+
                 sbHtmlOutput.Append("<th>" + columnName + "</th>" + Environment.NewLine);
             }
 
@@ -94,18 +100,26 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
 
                 for (int columnIndex = 0; columnIndex < columnCount; columnIndex++)
                 {
-                    if (dataGridView.Columns[columnIndex].Visible)
+                    if (exportOnlyVisibleColumns && !dataGridView.Columns[columnIndex].Visible)
                     {
-                        var cellValue = dataGridView.Rows[rowIndex - 1].Cells[columnIndex].Value;
+                        continue;
+                    }
 
-                        if (cellValue != null)
-                        {
-                            sbRow.Append("<TD>" + cellValue.ToString() + "</TD>");
-                        }
-                        else
-                        {
-                            sbRow.Append("<TD>" + "" + "</TD>");
-                        }
+                    if (argAllowedRowHeadersList != null && argAllowedRowHeadersList.Count > 0 && !argAllowedRowHeadersList.Contains(dataGridView.Columns[columnIndex].HeaderText))
+
+                    {
+                        continue;
+                    }
+
+                    String cellValue = (string)dataGridView.Rows[rowIndex - 1].Cells[columnIndex].Value;
+
+                    if (!String.IsNullOrEmpty(cellValue))
+                    {
+                        sbRow.Append("<TD>" + cellValue + "</TD>");
+                    }
+                    else
+                    {
+                        sbRow.Append("<TD>" + "" + "</TD>");
                     }
                 }
 
@@ -115,9 +129,9 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
 
                 String rowTextColor = NORMAL_TEXT_COLOR;
 
-                if (argRedColorIfContainsAnyOf != null)
+                if (argRedColorWordsList != null && argRedColorWordsList.Count > 0)
                 {
-                    foreach (String word in argRedColorIfContainsAnyOf)
+                    foreach (String word in argRedColorWordsList)
                     {
                         if (sbRow.ToString().Contains(word))
                         {
