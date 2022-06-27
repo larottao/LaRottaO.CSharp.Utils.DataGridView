@@ -45,6 +45,7 @@
     <Compile Include="BindDataGridViewToDataSource.cs" />
     <Compile Include="ExportDataGridViewAsCsv.cs" />
     <Compile Include="ExportDataGridViewAsHtmlTable.cs" />
+    <Compile Include="GetAllDgvCellsAs2DList.cs" />
     <Compile Include="GetObjectPropertiesAsList.cs" />
     <Compile Include="GetSelectedRowsAsObjectsFromDataGridView.cs" />
     <Compile Include="GetSelectedRowsAsTextFromDataGridView.cs" />
