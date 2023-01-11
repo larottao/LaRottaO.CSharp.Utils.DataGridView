@@ -39,6 +39,22 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
                         continue;
                     }
 
+                    if (
+
+                     objectType.ToString().Equals("System.String") ||
+                     objectType.ToString().Equals(" System.Boolean") ||
+                     objectType.ToString().Contains("System.Int") ||
+                     objectType.ToString().Contains("System.Decimal") ||
+                     objectType.ToString().Equals("System.Text.StringBuilder"))
+
+                    {
+                        String[] arrayElementosRow = new string[] { property.Name, property.GetValue(@object).ToString() };
+                        if (arrayElementosRow.Any())
+                        {
+                            dataTable.Rows.Add(arrayElementosRow);
+                        }
+                    }
+
                     if (objectType.ToString().Equals("System.Collections.Generic.List`1[System.String]"))
                     {
                         try
@@ -60,20 +76,6 @@ namespace LaRottaO.CSharp.DataGridViewUtilities
                             {
                                 Console.WriteLine(ex.StackTrace);
                             }
-                        }
-                    }
-                    else if (
-
-                        objectType.ToString().Equals("System.String") ||
-                        objectType.ToString().Equals(" System.Boolean") ||
-                        objectType.ToString().Contains("System.Int") ||
-                        objectType.ToString().Contains("System.Decimal"))
-
-                    {
-                        String[] arrayElementosRow = new string[] { property.Name, property.GetValue(@object).ToString() };
-                        if (arrayElementosRow.Any())
-                        {
-                            dataTable.Rows.Add(arrayElementosRow);
                         }
                     }
                 }

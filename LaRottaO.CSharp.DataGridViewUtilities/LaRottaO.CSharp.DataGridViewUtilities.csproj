@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BindDataGridViewToDataSource.cs" />
+    <Compile Include="GetCellValueFromColumnHeader.cs" />
     <Compile Include="ExportDataGridViewAsCsv.cs" />
     <Compile Include="ExportDataGridViewAsHtmlTable.cs" />
     <Compile Include="GetAllDgvCellsAs2DList.cs" />
